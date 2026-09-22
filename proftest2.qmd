@@ -48,7 +48,7 @@ There are 20 cars with disp greater than or equal to 150.
 
 ## Task-3
 
-Based off the name masking functions is when you hide your inputs and make the final rendere
+Masking functions is when you hide your inputs and make the final rendered document only show outputs. For example for the print functions I have above, the viewer would only see the results instead of the code and results.
 
 
 

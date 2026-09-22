@@ -7,9 +7,47 @@ editor: visual
 ---
 
 ## Task-1
+
 ```{r}
-mpg <- c(mtcars[1:3])
 for (mpg in mtcars$mpg[1:3]){
   print(mpg)
 }
 ```
+
+/newpage
+
+## Task-2
+
+```{r}
+count_above<-function(x,number){
+  count <- 0
+
+for ( i in 1:length(x)){
+  if (x[i] > number) {
+    count <- count+1
+  }
+}
+  return(count)
+}
+count_above(6,3)
+```
+
+
+```{r}
+print(iris$Sepal.Length>6)
+```
+61 Flowers with a sepal length above 6
+
+```{r}
+print(mtcars$disp>=150)
+```
+There are 20 cars with disp greater than or equal to 150
+
+/newpage
+
+## Task-3
+
+
+
+
+
